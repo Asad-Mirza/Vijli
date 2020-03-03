@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "870365251231",
+    "firebase_url": "https://vijli-a4912.firebaseio.com",
+    "project_id": "vijli-a4912",
+    "storage_bucket": "vijli-a4912.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:870365251231:android:802165658fed8f6cc304aa",
+        "android_client_info": {
+          "package_name": "com.example.vijli"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "870365251231-9408jb98r49b80e7vcl58gp6vm5ag3gr.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.vijli",
+            "certificate_hash": "7173ab851d655343d84eb90ca0b001bf9cce04b6"
+          }
+        },
+        {
+          "client_id": "870365251231-2msfsacup844ks2c872egt7ljpf5uses.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBNzAG-KAgDB85dXk0_lbY4NWm17fMTb-8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "870365251231-2msfsacup844ks2c872egt7ljpf5uses.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
