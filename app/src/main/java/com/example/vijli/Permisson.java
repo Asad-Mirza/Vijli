@@ -28,7 +28,7 @@ private  Intent  intent;
         super.onResume();
         if (ActivityCompat.checkSelfPermission(context, Manifest.permission.ACCESS_FINE_LOCATION) == PackageManager.PERMISSION_GRANTED ||
                 ActivityCompat.checkSelfPermission(context, Manifest.permission.ACCESS_BACKGROUND_LOCATION) == PackageManager.PERMISSION_GRANTED) {
-            intent=new Intent(context,MainScreen.class);
+            intent=new Intent(context,Splash.class);
             startActivity(intent);
             context.finish();
         }
@@ -39,7 +39,7 @@ private  Intent  intent;
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_permisson);
-        intent=new Intent(context,MainScreen.class);
+        intent=new Intent(context,Splash.class);
 
         respond=findViewById(R.id.response);
         respond.setOnClickListener(new View.OnClickListener() {
@@ -101,7 +101,7 @@ private  Intent  intent;
                     if (ActivityCompat.checkSelfPermission(context, Manifest.permission.ACCESS_FINE_LOCATION) == PackageManager.PERMISSION_GRANTED ||
                             ActivityCompat.checkSelfPermission(context, Manifest.permission.ACCESS_COARSE_LOCATION) == PackageManager.PERMISSION_GRANTED
                             || ActivityCompat.checkSelfPermission(context, Manifest.permission.ACCESS_BACKGROUND_LOCATION) == PackageManager.PERMISSION_GRANTED) {
-                             intent =new Intent(context,MainScreen.class);
+                             intent =new Intent(context,Splash.class);
                              startActivity(intent);
                              context.finish();
                         // permisson granted for -never ask again --
